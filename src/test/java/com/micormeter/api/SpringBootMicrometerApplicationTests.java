@@ -15,6 +15,7 @@ class SpringBootMicrometerApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Test case executing");
+		logger.info("Test case executing 1..2..3..");
 		assertThat(true).isEqualTo(true);
 	}
 
