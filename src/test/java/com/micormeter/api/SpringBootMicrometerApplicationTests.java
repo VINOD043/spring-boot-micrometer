@@ -13,7 +13,7 @@ class SpringBootMicrometerApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(SpringBootMicrometerApplicationTests.class);
 	
 	@Test
-	public  contextLoads() {
+	public void contextLoads() {
 		logger.info("Test case executing");
 		assertThat(true).isEqualTo(true);
 		logger.info("Test case executed");
